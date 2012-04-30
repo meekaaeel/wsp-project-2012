@@ -1,0 +1,376 @@
+}
+/
+/*Global styles -----------------------------------------------------------------------------------------------------------*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, span, em, strong, img, ol, ul, li, caption, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;	
+}
+@font-face {
+    font-family: 'EastMarketRegular';
+    src: url('EastMarket-webfont.eot');
+    src: url('EastMarket-webfont.eot?#iefix') format('embedded-opentype'),
+         url('EastMarket-webfont.woff') format('woff'),
+         url('EastMarket-webfont.ttf') format('truetype'),
+         url('EastMarket-webfont.svg#EastMarketRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	font: 100% Tahoma, Helvetica, sans-serif;
+	line-height: 1.5;
+	position: relative;
+	font-weight:normal;
+	font-style:normal;	
+	background: #BC7F3A;	
+}
+
+header, section, footer, aside, nav, article, hgroup, figure, time {
+     display: block;
+}	
+#wrapper {
+    width: 940px;
+    margin: 0 auto;
+    background: rgb(246,230,180); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(246,230,180,1) 0%, rgba(237,144,23,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,230,180,1)), color-stop(100%,rgba(237,144,23,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#e86d40',GradientType=0 ); /* IE6-9 */  
+} 
+/* navigation settings*/
+
+.mainNav ul {
+    background-color: #BC7F3A;
+	width: 100%; 
+    margin: 1px auto;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+.mainNav ul li {
+	list-style: none;
+	width: 120px;
+	float: left;
+	margin-left: 30px;
+	border: 2px, double, #A1670B;
+}
+.mainNav ul li a {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 5px;
+    color: #774104;
+ }
+.current {
+     background-color: #CC5A09; 
+     text-align: center;
+     padding: 0px;
+ }
+ #home {
+     text-align: center;
+     padding:0px;
+}
+#bedrooms {
+     text-align: center;
+     padding:0px;
+}     
+#living_rooms {
+     text-align: center;
+     padding:0px;
+}
+#dining_rooms {
+     text-align: center;
+     padding:0px;
+}
+#faq {
+     text-align: center;
+     padding:0px;
+} 
+#about_us {
+     text-align: center;
+     padding:0px;
+}                
+#mainNav a:hover {
+    color: #167D08;
+}
+#mainNav a.visited {
+    color: #B51409;
+} 
+#questions {
+    text-align:left;
+    text-justify:newspaper;
+    padding: 90px;    
+}
+#questions h2 {
+    color: #F6061E;
+    font-weight: 400;
+} 
+
+/*header styles*/
+
+#headerTop {
+	  background-image: url('../images/Furniture_Gallery_A.jpg'); 
+	  background-repeat: no-repeat;
+	  margin-bottom: -10px;
+}
+header h1 {
+    font-family: 'EastMarketRegular', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    line-height: 1.4em;
+	color: #753907; 	
+    text-align: center;	
+    text-shadow: 2px 3px 1px #000;   
+}
+header p {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 3px 2px #000;
+}
+#headerBottom {  
+     background-image: url('../images/Furniture_Gallery_B.jpg'); 
+     background-repeat: no-repeat;
+     margin-top: -35px;
+}
+#headerBottom h1{
+     font-family: Tahoma, sans-serif;
+     font-weight: 400;
+     line-height: 1.2;
+     text-align: center;
+     color: #000;
+     margin: 40px;
+     background-color: rgba(250, 243, 221, 0);
+     text-shadow: 1px 2px 4px #AFAAAA;
+}
+#headerBottom strong h1{
+    line-height: 2;
+}
+.storeHours p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #C80236;
+    text-align: center; 
+    margin-top: -40px;
+}
+.storeHours a:link {
+    line-height: 4em;
+    font-size: .8em;
+    letter-spacing: .2em; 
+    color: #C80236;
+} 
+.financing p {
+    font-size: 1em;
+    line-height: .1em;
+    font-style: italic;
+    color: #000;
+    margin-top: -5px;   
+}
+#clearanceArea {
+    color: #156303; 
+    text-align: center;
+}    
+.visitClearanceCenter h2{
+    letter-spacing: normal;
+    margin-top: 40px;    
+}
+.visitClearanceCenter span {
+    font-family:Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: .8em;  
+}
+.contentSection {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+   margin: 0 auto;
+   padding: 2px;
+}
+.contentSection img {
+    float: left;
+    padding-right: 5px;
+    clear: both;
+}   
+.contenSection h3 {
+    text-align: left;
+    margin: 0 auto;
+   padding: 5px;      
+}
+.location h3 {
+    margin-top: -5px; 
+    line-height: 1.5; 
+}
+.contentSection p {
+    font-size: 1.5;
+    margin: 0px;
+}
+.mattress {
+    margin: 0 auto; 
+}   
+.mattress img {
+    float: left; 
+    margin: 0 auto;
+    clear: both;
+}
+.mattress h3 {
+    text-align: left;   
+}
+
+.mattress p {
+    text-align: left;    
+}
+.sale {
+    margin-top: -30px; 
+    text-align:left;  
+}
+.first {
+    text-align: left; 
+}
+.clearfix {
+     clear: both;
+}
+#content {
+    -webkit-column-count: 3;
+     -webkit-column-gap: 15px;
+     padding-left: 10px;
+     padding-right: 10px;
+}   
+.warranty {
+   margin-top: 80px;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: .9em;  
+}
+#appointment {
+    padding:0 20px 0;
+    color: #025206;
+    text-shadow: 1px 1px 1px #111;
+}
+#selection {
+    margin-top: 60px;
+}
+#photosBeds {
+    padding-top:10px;
+    padding-left: 90px;
+}
+#photo_livingrooms {
+    padding-left: 12px;
+}
+#photos_dining {
+    padding-left: 12px;
+    padding-top: 10px;
+}
+.woman {
+    float: inherit;
+}
+#information {
+    float:right;
+    clear:both;
+    margin-right: 85px;
+    margin-top:-300px;
+    font-size: 1.8em;  
+}
+#information h2 {
+    text-align: center;
+    color: #049807;
+    text-shadow: 7px 5px 5px #111;
+}
+#phone {
+    text-align: center;
+    font-weight: bold;
+}
+#notice2 {
+    text-align:center;
+    font-style:italic;
+}
+#special {
+    text-align: center;
+    letter-spacing: .5em;
+    text-shadow: 2px 3px 2px #111;
+    font-size: 1.2;
+    color: #E6E0E0;
+}
+#employees {
+    -webkit-column-count: 3;
+    padding-left: 20px;
+    padding-right: 35px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    font-size: 1.5em;  
+}
+.philosopy {
+    color: #000;
+}
+.we_do {
+    color: #000;
+}
+.why {
+    color: #000;
+}
+.labelRight {
+    padding-left: 300px;
+}
+.labelLeft {
+    padding-left: 300px;
+}
+#all {
+    padding-top: 2px;
+    padding-left: 375px;
+    padding-bottom: 2px;
+    font-size: .8em;  
+}
+#submit_btn {
+    padding-left: 375px;
+}
+/*footer styles*/
+
+#pageFooter {
+    clear: both;
+	background: #9B5102;
+	margin: 0 auto;
+}
+#pageFooter p { 
+    font-size: .8em;   
+    text-align: center;
+    color: #fff;
+}
+#pageFooter p a:link {
+    color: #740915;
+} 	
+/*mobile styles*/
+@media only screen and (max-width:480px) {
+
+/*disable text sizing on orientation change*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	-webkit-text-size-adjust:none;
+}
+body {
+	width: 90%;
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 480px;
+}
+
+/*header styles*/
+
+header {
+	height: 70px;
+}
+header h1 {
+	font-size: 2em;
+	padding-left: 55px;
+	line-height: 70px;
+	width: 190px;
+	margin: 0 auto;
+}
+header h2 {
+	display: none;
+}
+
